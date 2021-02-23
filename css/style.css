@@ -1,0 +1,157 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    background-color: darkgrey;
+    font-family: 'Noto Sans KR', sans-serif;
+ 
+}
+
+header {
+    background-color: #033048;
+    min-height: 30px;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.top-nav-ul {
+    list-style-type: none;
+    color: #f9e42e;
+    display: flex;
+    padding: 30px 40px 20px 0;
+    margin:0;
+    justify-content: center;
+    height:60px;
+}
+
+.top-nav-ul li {
+    padding: 0px 20px;
+}
+
+.header-h1 {
+    padding: 30px 0 20px 60px;
+    color: #f0efef;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-h2 {
+    margin: auto;
+    padding: 50px;
+    color: #f0efef;
+}
+
+h6 {
+    color: #606161; 
+    padding-bottom: 20px;
+    margin: auto ;   
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    background-color: #f0efef;
+    color: #033048;
+    margin: auto;
+    min-height: 350px;
+    padding-top: 60px;
+    padding-left: 60px;
+    display: grid;
+    grid-template-columns: auto 30%;
+}
+
+main div section{
+    width: 90%;
+}
+
+blockquote {
+    background-image: url("../images/testimonial_bg.jpg");
+    color:  #f0efef;
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block-div {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    text-align: center;
+}
+
+aside {
+    background-color: #f9e42e;
+    height: 70px;
+}
+
+.aside-quote {
+    font-style: italic;
+}
+
+footer {
+    background: #121212;
+    margin: auto;
+   color: #f0efef;
+}
+
+.section-img {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-h1 {
+    color: #f9e42e;
+    padding-top: 30px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+.btn {
+    text-decoration: none;
+    color: #033048;
+    background-color: #f9e42e;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.asside-btn {
+    text-decoration: none;
+    color: #f0efef;
+    background-color: #033048;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.social-list{
+    display: flex;
+    justify-content: center;
+  }
+
+footer img {
+    height: 20px;
+    padding: 40px 20px;
+    margin: auto;
+}
+
+  
