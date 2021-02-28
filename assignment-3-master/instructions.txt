@@ -1,0 +1,15 @@
+Write in the index.html file and css/style.css file to make the webpage to look like the relaxr_blog.jpg.
+
+CSS Colors
+==========
+background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Column Sizes
+============
+Main column width: 700px
+Sidebar width: 240px
+Gap between columns: 20px
